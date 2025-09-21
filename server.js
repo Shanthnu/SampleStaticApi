@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // GET
 
 app.get("/getSimple", (req, res) => {
-  res.send(`Hello welcome to nodejs👋`);
+  res.send(`Hello welcome to our application`);
 });
 
 app.get("/getReq", (req, res) => {
